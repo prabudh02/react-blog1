@@ -11,7 +11,7 @@ function App() {
   const [loading,setloading]=useState(false);
   const dispatch=useDispatch()
   console.log(import.meta.env.VITE_APPWRITE_URL)
-  //below commented part is creating some problem related to appwrite
+  //below commented part is creating some problem related to appwrite ,,
   // useEffect(()=>{
   //  const checksession=async()=>{
   //   try {
